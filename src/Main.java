@@ -10,6 +10,14 @@ public class Main {
 
         System.out.println(dogHouse);
 
+        String newDog = "Chow Chow";
+        if (myDogs().contains(newDog)) {
+            System.out.println(newDog + " è già nella Dog House!");
+        } else {
+            System.out.println(newDog + "non è ancora entrato nella Dog House!");
+
+        }
+
     }
 
     private static HashSet<String> myDogs() {
